@@ -18,6 +18,6 @@ public class StViewHolder extends RecyclerView.ViewHolder {
 
     public void onBind(StudentTask stT){
         name.setText(stT.name);
-        infor.setText(stT.inform);
+        infor.setText(stT.inform );
     }
 }
