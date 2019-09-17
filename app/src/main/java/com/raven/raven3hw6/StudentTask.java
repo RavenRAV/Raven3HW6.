@@ -8,4 +8,10 @@ public class StudentTask {
     public String inform;
     public Date birthday;
 
+    public StudentTask(String name, String surname, String inform, Date birthday) {
+        this.name = name;
+        this.surname = surname;
+        this.inform = inform;
+        this.birthday = birthday;
+    }
 }
